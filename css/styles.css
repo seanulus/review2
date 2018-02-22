@@ -1,5 +1,11 @@
+body {
+  background-color: #092b60;
+  opacity: 10%;
+}
+
 .center {
   text-align: center;
+  color: yellow;
 }
 
 .top-margin {
@@ -9,4 +15,5 @@
 
 #fantasy, #power, #black {
   display: none;
+  margin-top: 10px;
 }

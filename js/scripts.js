@@ -8,16 +8,16 @@ $(document).ready(function() {
     var axe = parseInt($("#axe").val());
     var total = name + quest + color + location + axe
 
-    if (total >= 4) {
+    if (total <= 7) {
       $("#fantasy").fadeIn();
       $("#power, #black").hide();
-    } else if (total >= 9) {
-      $("#power").slideIn();
-      $("#fantasy, #black").hide();
-    } else (total > 13) {
-      $("#black").fadeIn();
-      $("#fantasy, #power")
-    }
+    } else if (total <= 13) {
+       $("#power").fadeIn();
+       $("#fantasy, #black").hide();
+     } else {
+       $("#black").fadeIn();
+       $("#fantasy, #power").hide();
+     }
 
     event.preventDefault()
   });
