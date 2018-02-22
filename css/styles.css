@@ -1,11 +1,16 @@
 body {
-  background-color: #092b60;
-  opacity: 10%;
+  background-color: #024f1a;
+  opacity: 100%;
+}
+
+.jumbotron {
+  border-radius: none;
 }
 
 .center {
   text-align: center;
   color: yellow;
+  font-style: oblique;
 }
 
 .top-margin {
