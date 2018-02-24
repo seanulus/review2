@@ -1,11 +1,32 @@
 body {
-  opacity: 50%;
-  background-image: url(https://ips.pepitastore.com/storefront/img/resized/squareenix-store-v2/098c9da579bac8bacff2a2b527c7c860_1920_KR.jpg);
+  opacity: 0.9;
+  background-image: url(https://ajcarlisle.files.wordpress.com/2014/03/stevenss-epic-fantasy-criteria-transformative-tales-whendell-deviant-art1.jpg);
+  background-position: center;
 }
 
 h1 {
-  color: #000000;
+  color: #000000 !important;
   text-align: center;
+}
+
+.opaque {
+  opacity: 1.0;
+}
+
+.header {
+  text-align: center;
+  font-weight: 500 !important;
+  background-color: #6c3c8c;
+  border: solid black 4px;
+  border-radius: 5px;
+  padding: 3px;
+  margin: 10px;
+  color: #000000;
+}
+
+.shadow {
+  color: #ffffff;
+  text-shadow: 2px 2px black;
 }
 
 .btn {
@@ -25,7 +46,10 @@ h1 {
   font-style: oblique;
   border: solid black 4px;
   border-radius: 5px;
+  padding: 3px;
+  margin: 10px;
   color: #000000;
+  opacity: 50%;
 }
 
 .top-margin {
