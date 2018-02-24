@@ -1,16 +1,31 @@
 body {
-  background-color: #024f1a;
-  opacity: 100%;
+  opacity: 50%;
+  background-image: url(https://ips.pepitastore.com/storefront/img/resized/squareenix-store-v2/098c9da579bac8bacff2a2b527c7c860_1920_KR.jpg);
+}
+
+h1 {
+  color: #000000;
+  text-align: center;
+}
+
+.btn {
+  border: solid black 4px;
+  border-radius: 5px;
 }
 
 .jumbotron {
   border-radius: none;
+  background-color: #3c548c;
+  border: solid black 4px;
 }
 
 .center {
   text-align: center;
-  color: yellow;
+  background-color: #6c3c8c;
   font-style: oblique;
+  border: solid black 4px;
+  border-radius: 5px;
+  color: #000000;
 }
 
 .top-margin {
